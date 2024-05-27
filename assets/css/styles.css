@@ -106,6 +106,7 @@ body main .card_container button {
           text-decoration: double;
   background-color: #f4511e;
   border: none;
+  border-radius: 1rem;
   color: white;
   padding: 16px 32px;
   text-align: center;
@@ -115,10 +116,10 @@ body main .card_container button {
   transition: 0.3s;
 }
 body main .card_container button:hover {
-  background-color: #3e8e41 t;
+  background-color: rgb(55, 6, 23);
 }
 body main .card_container button:active {
-  background-color: #3e8e41;
+  background-color: rgb(55, 6, 23);
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
