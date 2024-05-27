@@ -89,8 +89,10 @@ body main .card_container {
   flex-grow: 3;
 }
 body main .card_container:hover {
-  display: none;
+  display: block;
   background-color: rgb(220, 47, 2);
+  align-items: center;
+  justify-content: center;
   transition: background-color 2s ease-out 0s;
 }
 body main .card_container img {

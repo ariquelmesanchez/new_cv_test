@@ -120,8 +120,10 @@ body {
             
 
             &:hover{
-                display: none;
+                display: block;
                 background-color: rgb(220, 47, 2);
+                align-items: center;
+                justify-content: center;
                 transition: background-color 2s ease-out 0s;
                 
                  
